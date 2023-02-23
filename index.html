@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  <script src="script.js" defer></script>
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+</head>
+<body>
+<div class="wrapper">
+  <main class="container">    
+    <div class="card">
+
+      <div class="image">
+        <picture class="woman-illustration">
+          <source media="(max-width: 69rem)" srcset="./assets/images/illustration-woman-online-mobile.svg">
+          <img src="./assets/images/illustration-woman-online-desktop.svg" 
+            alt="woman standing in front of big screen">
+        </picture>
+        <div class="image-shadow">
+          <picture class="shadow">
+            <source media="(max-width: 69rem)" srcset="./assets/images/bg-pattern-mobile.svg">
+            <img src="./assets/images/bg-pattern-desktop.svg" alt="image shadow">
+          </picture>
+          <picture class="box">
+            <img src="./assets/images/illustration-box-desktop.svg" alt="orange cube with @ on the top">
+          </picture>
+        </div> 
+      </div>
+
+      <div class="accordion">
+        <h1>FAQ</h1>
+        <div class="item">
+          <p class="item-header">How many team members can I invite?</p>
+          <p class="item-body">
+            You can invite up to 2 additional users on the Free plan. There is no limit on 
+            team members for the Premium plan.
+          </p>
+        </div>
+
+        <div class="item">
+          <p class="item-header">What is the maximum file upload size?</p>
+          <p class="item-body">
+            No more than 2GB. All files in your account must fit your allotted storage space.
+          </p>
+        </div>
+
+        <div class="item">
+          <p class="item-header">How do I reset my password?</p>
+          <p class="item-body">
+            Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.
+          </p>
+        </div>
+
+        <div class="item">
+          <p class="item-header">Can I cancel my subscription?</p>
+          <p class="item-body">
+            Yes! Send us a message and we'll process your request no questions asked.
+          </p>
+        </div>
+
+        <div class="item">
+          <p class="item-header">Do you provide additional support?</p>
+          <p class="item-body">
+            Chat and email support is available 24/7. Phone lines are open during normal business hours.
+          </p>
+        </div>
+      </div> <!-- accordion end -->  
+
+    </div> 
+  </main>
+</div> <!-- wrapper end -->
+</body>
+</html>
